@@ -50,3 +50,4 @@ let sonidos = document.querySelectorAll('button');
 console.log(sonidos);
 let myArray = Array.from(sonidos);
 console.log(myArray);
+
