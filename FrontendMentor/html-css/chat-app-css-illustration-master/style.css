@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+/* body {
+  width: 250px;
+  height: 250px;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
+} */
+body {
+  background-color: #fafafa;
+  font-family: "Rubik", sans-serif;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.smartphone {
+  background-color: maroon;
+  /* background-color: #fafafa; */
+  height: 550px;
+  width: 300px;
+  border-radius: 40px;
+  border: 10px solid white;
+  box-shadow: 10px 25px 70px 10px rgba(0, 0, 0, 0.1);
+  z-index: 5;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  width: 100%;
+  background-image: linear-gradient(
+    to left,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  border-radius: 30px 30px 0 0;
+}
+#snotch {
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  width: 60%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+}
+#avatar {
+  border-radius: 50%;
+  transform: scale(10%);
+  border: 10px solid white;
+  top: 0;
+  left: 0;
+}
+.navbar-title {
+  color: white;
+}
+.navbar-subtitle {
+  color: hsl(206, 6%, 79%);
+}
+.text {
+  width: 450px;
+  margin-left: 150px;
+}
+h1 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+p {
+  color: hsl(206, 6%, 79%);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+.bg-bar {
+  position: absolute;
+  top: 0;
+  left: -120px;
+  background-image: linear-gradient(
+    to bottom left,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  width: 700px;
+  height: 800px;
+  border-radius: 0 0 350px 350px;
+}
