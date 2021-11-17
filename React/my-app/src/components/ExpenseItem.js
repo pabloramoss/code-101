@@ -1,4 +1,7 @@
 import "./ExpenseItem.css";
+const clickHandler = ()=> {
+  console.log('clicked!!');
+}
 
 function ExpenseItem(props) {
     return (
@@ -6,6 +9,7 @@ function ExpenseItem(props) {
           <div className="date shadow">{props.date}</div>
           <div className="item-name">{props.title}</div>
           <div className="price shadow">${props.amount}</div>
+          <button onClick={clickHandler}>Change title</button>
         </div>
     );
 }
