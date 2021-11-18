@@ -89,3 +89,40 @@ form {
   align-items: center;
   justify-content: flex-end;
 }
+
+@media (max-width: 375px) {
+  main {
+    flex-direction: column;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  #hero {
+    transform: scale(0.7);
+    width: 350px;
+    height: auto;
+    top: 50px;
+  }
+  .text {
+    text-align: center;
+    order: 1;
+    width: 350px;
+  }
+  p {
+    letter-spacing: 0;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+.image {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+}
