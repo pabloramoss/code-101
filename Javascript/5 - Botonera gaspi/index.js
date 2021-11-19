@@ -1,0 +1,21 @@
+const buenosDias = new Audio('./audios/saludosBuenosdias.mp3');
+const buenas1 = new Audio('./audios/saludosBuenas1.mp3');
+const buenas2 = new Audio('./audios/saludosBuenas2.mp3');
+const buenas3 = new Audio('./audios/saludosBuenas3.mp3');
+const anibal = new Audio('./audios/anibal.mp3');
+const paulo = new Audio('./audios/paulo-londra.mp3');
+const pauloTrans = new Audio('./audios/paulo-trans.mp3');
+const chumba = new Audio('./audios/saludosChumba.mp3');
+const garmendia = new Audio('./audios/german-garmendia.mp3');
+const zumbi1 = new Audio('./audios/saludosZumbi.mp3');
+const zumbi2 = new Audio('./audios/saludosZumbi2.mp3');
+const fiumba1 = new Audio('./audios/saludosFiumba1.mp3');
+const zringa = new Audio('./audios/saludosZringa.mp3');
+const zrumba = new Audio('./audios/saludosZrumba.mp3');
+const corona = new Audio('./audios/rdmCorona.mp3');
+const farmaceutico = new Audio('./audios/rdmFarmaceutico.mp3');
+const forunculo = new Audio('./audios/rdmForunculo.mp3');
+const magnum = new Audio('./audios/rdmMagnumefisto.mp3');
+const serendipia = new Audio('./audios/rdmSerendipia.mp3');
+const llollapalooza = new Audio('./audios/rdmLlollapalooza.mp3');
+

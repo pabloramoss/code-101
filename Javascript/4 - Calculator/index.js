@@ -4,9 +4,6 @@ let buttons = Array.from(document.getElementsByClassName('button'));
 
 buttons.map( button => {
     button.addEventListener('click', (e) => {
-      console.log(e);
-      console.log(e.target);
-      console.log(e.target.innerText);
         switch(e.target.innerText){
             case 'AC':
                 display.innerText = '';
@@ -15,7 +12,7 @@ buttons.map( button => {
                 try{
                     display.innerText = eval(display.innerText);
                 } catch {
-                    display.innerText = "Error"
+                    display.innerText = "Error!"
                 }
                 break;
             case '←':
