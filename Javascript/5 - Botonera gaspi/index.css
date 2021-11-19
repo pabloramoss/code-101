@@ -5,10 +5,15 @@
 body {
   background-color: #202124;
 }
+header {
+  z-index: -1;
+  position: fixed;
+  padding-right: 100px;
+}
+
 .botonera {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 button {
   color: white;
@@ -36,5 +41,13 @@ button:hover {
   gap: 10px;
 }
 h1 {
+  text-align: center;
   color: white;
+}
+@media (min-width: 400px) {
+  img {
+  }
+  h1 {
+    text-align: start;
+  }
 }
