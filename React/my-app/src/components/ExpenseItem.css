@@ -5,7 +5,7 @@
   border-radius: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1rem 2rem;
   margin-top: 1rem;
 }
@@ -23,4 +23,9 @@
   background-color: #dbd8e3;
   border-radius: 20px;
   border: gray solid 3px;
+}
+
+.itemImage {
+  height: 60px;
+  border-radius: 5px;
 }

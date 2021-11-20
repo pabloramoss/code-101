@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import ExpenseItem from './components/ExpenseItem';
 
 function App() {
 const expenses = [
-  {title: "Mancuerna 5kg", amount: 100, date: 28},
-  {title: "Mancuerna 10kg", amount: 200, date: 29},
-  {title: "Mancuerna 15kg", amount: 300, date: 30},
-  {title: "Mancuerna 20kg", amount: 400, date: 31},
+  {title: "Mancuerna hexagonal 5kg", amount: 100, date: 28},
+  {title: "Mancuerna hexagonal 10kg", amount: 200, date: 29},
+  {title: "Mancuerna hexagonal 15kg", amount: 300, date: 30},
+  {title: "Mancuerna hexagonal 20kg", amount: 400, date: 31},
 ]
 
   return (

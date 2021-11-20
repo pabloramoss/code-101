@@ -41,3 +41,8 @@ const silvina = new Audio('./audios/nameSilvinaEscudero.mp3');
 const silvia = new Audio('./audios/nameSilvia.mp3');
 const quincianiera = new Audio('./audios/rdmQuincianiera.mp3');
 
+let sonidos = document.querySelectorAll('button');
+console.log(sonidos);
+let myArray = Array.from(sonidos);
+console.log(myArray);
+
