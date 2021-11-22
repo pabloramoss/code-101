@@ -95,3 +95,19 @@ h5 {
   color: rgb(129, 122, 122);
 }
 /* TESTIMONIALS END */
+
+/* Footer start */
+.footer-end {
+  color: hsl(168, 34%, 41%);
+  background-color: #a0ddce;
+}
+.footer-end li {
+  list-style: none;
+}
+.footer-end ul {
+  display: flex;
+  padding: 0 2rem;
+}
+.footer-end li:hover {
+  color: white;
+}
