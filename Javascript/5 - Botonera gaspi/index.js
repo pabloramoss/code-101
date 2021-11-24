@@ -7,7 +7,6 @@ const paulo = new Audio('./audios/paulo-londra.mp3');
 const pauloTrans = new Audio('./audios/paulo-trans.mp3');
 const chumba = new Audio('./audios/saludosChumba.mp3');
 const garmendia = new Audio('./audios/german-garmendia.mp3');
-const zumbi1 = new Audio('./audios/saludosZumbi.mp3');
 const zumbi2 = new Audio('./audios/saludosZumbi2.mp3');
 const fiumba1 = new Audio('./audios/saludosFiumba1.mp3');
 const zringa = new Audio('./audios/saludosZringa.mp3');
@@ -40,9 +39,14 @@ const morgan = new Audio('./audios/nameMorganFreeman.mp3');
 const silvina = new Audio('./audios/nameSilvinaEscudero.mp3');
 const silvia = new Audio('./audios/nameSilvia.mp3');
 const quincianiera = new Audio('./audios/rdmQuincianiera.mp3');
+const cumulus = new Audio('./audios/rdmCumulusNimbus.mp3');
+const viviana = new Audio('./audios/nameVivianaCanosa.mp3');
+const silvio = new Audio('./audios/nameSilvioRodriguez.mp3');
+const pipo = new Audio('./audios/namePipoGorosito.mp3');
+const fiumba2 = new Audio('./audios/saludosFiumba2.mp3');
+
 
 let sonidos = document.querySelectorAll('button');
 console.log(sonidos);
 let myArray = Array.from(sonidos);
 console.log(myArray);
-
