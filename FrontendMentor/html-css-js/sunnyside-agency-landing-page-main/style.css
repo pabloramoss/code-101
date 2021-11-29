@@ -36,8 +36,10 @@ header img {
   max-height: 950px;
 }
 #title {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   position: absolute;
+  top: 100px;
+  left: 50px;
 }
 h1 {
   font-family: "Fraunces", serif;

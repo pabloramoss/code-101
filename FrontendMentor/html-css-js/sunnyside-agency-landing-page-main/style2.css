@@ -1,4 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Fraunces:wght@700;900&display=swap");
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
 *{
+  font-family: "Barlow", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -10,6 +14,8 @@ header img{
   max-height: 900px;
 }
 /* HEADER END */
+
+/* MAIN START */
 
 main {
   display: grid;
@@ -25,7 +31,13 @@ main {
   width: 100%;
 
 }
+h2, h4 {
+  font-family: 'Fraunces', serif;
+  display: inline-block;
+
+}
 h2 {
+  font-size: 3rem;
 
 }
 #photography{
@@ -46,3 +58,122 @@ h2 {
   left: 0;
 
 }
+p {
+  line-height: 1.5rem;
+  font-size: 18px;
+  padding: 3rem 0;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 450px;
+}
+#row1 .text{
+  margin-left: 15rem;
+}
+#row2 .text{
+  margin-left: 10rem;
+}
+#row3 .text{
+  text-align: center;
+  margin-left: 15rem;
+  margin-top: 30rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#graphic .text{
+  color: hsl(168, 50%, 21%);
+}
+#photography .text{
+  color: #164253;
+}
+/* MAIN END */
+
+/* TESTIMONIALS START */
+#testimonials {
+  padding: 0 8%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.testimonial {
+  width: 370px;
+  padding: 0 2rem;
+}
+.testimonial img {
+  margin: 4rem;
+  height: 60px;
+  border-radius: 50%;
+}
+.testimonial p {
+  margin-bottom: 4rem;
+}
+h3 {
+  color: rgb(153, 152, 152);
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  padding-top: 8rem;
+  text-align: center;
+}
+h5 {
+  font-size: 0.8rem;
+  color: rgb(129, 122, 122);
+}
+/* TESTIMONIALS END */
+
+////
+
+
+////
+/* Footer start */
+#footer {
+  width: 400px;
+  display: flex;
+  color: hsl(168, 34%, 41%);
+  background-color: #a0ddce;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer h4{
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+ul{
+  display: flex;
+}
+.footer li {
+  list-style: none;
+  cursor: pointer;
+}
+.footer ul {
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+.footer li:hover {
+  color: white;
+}
+footer img{
+  width: 25vw;
+}
+
+.footer-list li{
+  padding: 0 2rem;
+}
+.social-media li{
+  padding: 0 8px;
+}
+.footer-color {
+  color: hsl(168, 34%, 41%);
+  background-color: #a0ddce;
+
+}
+/* FOOTER END */
