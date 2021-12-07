@@ -2,13 +2,16 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import Form from './components/Form'
+import Contador from './components/Contador'
+import Onoff from './components/Onoff'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       <Form />
+      <Contador /> 
+      <Onoff />
     </div>
   )
 }

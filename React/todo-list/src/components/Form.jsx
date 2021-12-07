@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 
 function Form(){
-  const [todos, setTodos] = useState([])
-  const [todo, setTodo] = useState("")
+  const [todos, setTodos] = useState([]); //Used to track the current list
+  const [todo, setTodo] = useState(""); //Used every time we add a gift
 
   function handleSubmit(e){
     e.preventDefault()
