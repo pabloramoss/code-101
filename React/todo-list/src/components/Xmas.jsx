@@ -1,28 +1,34 @@
 import React, {useState} from "react";
 
-const gifts = ["abundancia","salud","gratitud"]
-const submit = (e)=>{
-  e.preventDefault();
-  const newGift = {
-    id: new Date().getTime(),
-    text: gift
-  }
-  setNewGift([...newGift]).concat(newGift);
 
-}
-const Xmas = ()=>{
-  const [newGift, setNewGift]=useState();
-  const giftList = gifts.map((gift,index)=><li key={index}>{gift}</li>);
-  
+export default function Xmas(){
+  const [gifts, setGifts]=useState(["Medias","Caramelos","Vitel tone"]);
+
+  function handleSubmit(e){
+    e.preventDefault();
+
+    const gift = e.currentTarget.gift.value;
+    setGifts((gifts)=>gifts.concat(gift));
+    e.currentTarget.gift.value="";
+  }
+//Falta agregar un handleDelete que se ejecute en un onClick
+
+  const giftList = gifts.map((gift, index)=><li key={index}>{gift}<button>X</button></li>)
+
   return (
     <div>
-      <h2>REGALOS</h2>
-      <form>
-        <ul>{giftList}</ul>
-        <button onClick={submit}>Agregar</button>
-      </form>
-    </div>
-  );
-};
+    <form onSubmit={handleSubmit}>
+      <input 
+      type="text"
+      placeholder="Ingresa un regalo"
+      name="gift"
+      />
+      <button type="submit">Agregar</button>
+    </form>
+    <ul>
+      {giftList}
+    </ul>
 
-export default Xmas;
+    </div>
+  )
+};
