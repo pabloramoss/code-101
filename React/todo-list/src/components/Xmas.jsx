@@ -12,8 +12,11 @@ export default function Xmas(){
     e.currentTarget.gift.value="";
   }
 //Falta agregar un handleDelete que se ejecute en un onClick
+const handleDelete(){
 
-  const giftList = gifts.map((gift, index)=><li key={index}>{gift}<button>X</button></li>)
+}
+
+  const giftList = gifts.map((gift, index)=><li key={index}>{gift}<button onClick={()=>handleDelete()}>X</button></li>)
 
   return (
     <div>
